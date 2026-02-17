@@ -24,7 +24,7 @@ function Homework_05() {
   };
 
   const menuButtons = menuItems.map((name) => (
-    <div key={name} className="button_control">
+    <div key={v4()} className="button_control">
       <Button name={name} onClick={() => addMenuElement(name)} />
     </div>
   ));
